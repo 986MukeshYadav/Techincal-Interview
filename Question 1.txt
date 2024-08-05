@@ -1,0 +1,64 @@
+Programming and Algorithms
+
+Explain Big O notation and give examples of different time complexities.
+Write a function to reverse a linked list.
+How would you find the intersection point of two linked lists?
+Describe and implement a binary search algorithm.
+What is a hash table, and how does it work?
+Implement a function to find the nth Fibonacci number.
+Write a function to sort an array using quicksort.
+Explain the difference between depth-first search (DFS) and breadth-first search (BFS).
+How would you check if a string contains only unique characters?
+Design an algorithm to merge two sorted arrays.
+
+Data Structures
+
+Explain the differences between a stack and a queue.
+What is a binary search tree (BST), and how does it differ from a binary tree?
+Describe how a priority queue is implemented and its use cases.
+What is the difference between an array and a linked list?
+How would you implement a queue using two stacks?
+Explain how a trie data structure works and its applications.
+What is a graph, and what are the different types of graphs?
+How would you detect a cycle in a directed graph?
+What is a balanced tree, and why is it important?
+Describe the various ways to traverse a binary tree.
+
+System Design
+
+Design a URL shortening service like bit.ly.
+How would you design a scalable web application?
+Explain how a load balancer works and its importance.
+Design a system to handle real-time chat messaging.
+How would you design a recommendation system?
+Describe how a distributed caching system works.
+Design an online payment system.
+How would you implement a logging and monitoring system?
+Explain the CAP theorem and its implications in distributed systems.
+Design a file storage system similar to Google Drive.
+
+Databases
+
+What are ACID properties in a database?
+Explain the difference between SQL and NoSQL databases.
+How would you normalize a database schema?
+What is a transaction, and why is it important in databases?
+Describe the different types of database indexing.
+How do you optimize a SQL query?
+What are the differences between relational and non-relational databases?
+How would you implement a search feature in a large dataset?
+What is database sharding, and why is it used?
+Explain the concept of a database view and its use cases.
+
+Programming Languages and Tools
+
+What are the key features of object-oriented programming?
+Explain the difference between interfaces and abstract classes.
+What are closures in JavaScript, and how do they work?
+How does memory management work in languages like C++ and Java?
+What is a race condition, and how can it be prevented?
+Explain the concept of garbage collection.
+What are design patterns, and why are they useful?
+Describe the concept of concurrency and parallelism.
+How would you debug a slow-running application?
+What is REST, and how does it relate to APIs?

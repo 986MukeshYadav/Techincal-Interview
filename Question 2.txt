@@ -1,0 +1,24 @@
+In previous placement processes, Roima Intelligence has typically included coding questions that assess candidates' understanding of various data structures, algorithms, and general programming concepts. Some common types of questions include:
+
+Data Structures:
+
+Implementing a binary search tree and inserting elements.
+Deleting a node in a linked list.
+Detecting cycles in a linked list.
+Arrays:
+
+Performing operations like left rotations on an array.
+Finding the largest and smallest elements in an unsorted array.
+Determining if two arrays are equal.
+Strings:
+
+Converting time formats, such as from 12-hour AM/PM format to 24-hour format.
+Conceptual Questions:
+
+Explaining basic data structures (e.g., arrays, linked lists, trees).
+Understanding sorting and searching algorithms.
+These types of questions are designed to test both practical coding skills and theoretical knowledge. It's advisable to practice a variety of problems, especially those involving common data structures and algorithms, to prepare effectively for their written test.
+
+For detailed practice, platforms like LeetCode, HackerRank, and GeeksforGeeks offer extensive resources and problem sets that align well with the kinds of questions you might encounter​ (HackerRank)​​ (Forage)​.
+
+Good luck with your preparation! If you need help with specific types of problems, feel free to ask.
