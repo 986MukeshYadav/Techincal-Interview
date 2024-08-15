@@ -8,4 +8,4 @@ function toSnakeCase(word){
 
 console.log(toSnakeCase("Hello World")); // Output: hello_world
 console.log(toSnakeCase("convertThis String to snake_case")); // Output: convertthis_string_to_snake_case
-console.log(toSnakeCase("  trim-and_replace non_alpha!  ")); // Output: trim_and_replace_non_alpha
+console.log(toSnakeCase("  trim-and_replace non_alpha!")); // Output: trim_and_replace_non_alpha
