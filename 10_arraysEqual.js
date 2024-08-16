@@ -5,8 +5,15 @@ const arraysAreEqual=(arr1,arr2)=>{
   if(arr1.length !== arr2.length){
     return false;
   }
- return arr1.every((currValue,index) => currValue == arr2[index])
+//  return arr1.every((currValue,index) => currValue == arr2[index])
 
+//====================================================================
+for(let i = 1 ;  i<=arr1.length;i++){
+  if(arr1[i] !== arr2[i]){
+    return false;
+  }
+}
+return true
 }
 
 console.log(arraysAreEqual([1,2,3],[1,2,3])); // true
