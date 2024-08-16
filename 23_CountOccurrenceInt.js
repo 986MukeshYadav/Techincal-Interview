@@ -19,15 +19,17 @@ const CountOccurrence=(arr)=>{
 
     for(const element of arr){
        countObj[element] = (countObj[element] || 0 ) + 1;
+
        if(countObj[element] > maxCount){
         maxCount = countObj[element];
-        keys = [element];
+        keys = element;
+
        }
     }
 
     
-    return countObj;
-    // return keys; // for largest number
+   return countObj;
+   // return keys; // for largest number
     // return maxCount; // for largest count
  
 }
