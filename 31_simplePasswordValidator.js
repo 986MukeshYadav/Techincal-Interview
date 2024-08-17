@@ -11,21 +11,6 @@
 //? false otherwise.
 //* Constraints:
 //? The input string password will contain only alphanumeric characters and punctuation marks.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const simplePasswordValidator=(str)=>{
     let lowercase = /[a-z]/;
     let uppercase = /[A-Z]/;
@@ -33,10 +18,6 @@ const simplePasswordValidator=(str)=>{
     let length = /^.{8,}$/;
     return length.test(str) && lowercase.test(str) && uppercase.test(str) && digit.test(str);
 }
-
-
-
-
 console.log(simplePasswordValidator("afkdsfadsf")); // Output: false
 console.log(simplePasswordValidator("afkdsfadsf1")); // Output: false
 console.log(simplePasswordValidator("afkdsfadsf1A")); // Output: true
