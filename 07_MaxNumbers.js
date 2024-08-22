@@ -28,6 +28,6 @@ const findMax=(arr)=>{
     return result;
  
 }
-console.log(findMax([1, 5, 3, 9, 21])); // Output: 9
+console.log(findMax([1, 5, 3, 9, 21])); // Output: 21
 console.log(findMax([-10, -5, -3, -9, -2])); // Output: -2
 console.log(findMax([5])); // Output: 5

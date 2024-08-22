@@ -22,5 +22,4 @@ const hashTagGenerator = (str) => {
      
 
 }
-
 console.log(hashTagGenerator("my name is mukesh yadav")); 

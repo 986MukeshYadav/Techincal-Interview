@@ -6,9 +6,10 @@ const arraysAreEqual=(arr1,arr2)=>{
     return false;
   }
 //  return arr1.every((currValue,index) => currValue == arr2[index])
-
+ 
 //====================================================================
-for(let i = 1 ;  i<=arr1.length;i++){
+ // using simple for loop to compare each element of both arrays
+for(let i = 0 ;  i<=arr1.length;i++){
   if(arr1[i] !== arr2[i]){
     return false;
   }
