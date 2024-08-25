@@ -7,7 +7,7 @@ const addTwoNumbers=(l1, l2)=>{
    l2=l2.reverse().join("")
    
 let sum = Number(l1) + Number(l2)
-
+   console.log(sum)
   let sum1=String(sum).split("").reverse().map(Number)
   
   return sum1

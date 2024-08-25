@@ -23,5 +23,5 @@ var findMedianSortedArrays = function (nums1, nums2) {
 
   return sum[mid]
 };
-console.log(findMedianSortedArrays([1, 3], [2]));
-console.log(findMedianSortedArrays([1, 2], [3, 4]));
+console.log(findMedianSortedArrays([1, 3], [2]));  //output: 2
+console.log(findMedianSortedArrays([1, 2], [3, 4])); // output : 2.5
