@@ -25,12 +25,13 @@ var lengthOfLongestSubstring = function(s) {
    for(let i=0;i<s.length;i++){
     if(newStr.includes(s[i])){
         newStr=newStr.slice(newStr.indexOf(s[i])+1)
+        console.log(newStr)
     }
     newStr.push(s[i]);
     maxlength = Math.max(maxlength,newStr.length)
    }
    return maxlength;
 };
-console.log(lengthOfLongestSubstring("pwwkew"))    //output = 3
+// console.log(lengthOfLongestSubstring("pwwkew"))    //output = 3
 console.log(lengthOfLongestSubstring("abcabcbb")) //output = 3
-console.log(lengthOfLongestSubstring("bbbbb")) //output = 1
+// console.log(lengthOfLongestSubstring("bbbbb")) //output = 1
