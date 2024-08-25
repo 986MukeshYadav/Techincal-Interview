@@ -14,8 +14,7 @@
 // Explanation: "leeto" did not occur in "leetcode", so we return -1.
 
 var strStr = function(haystack, needle) {
- let result = haystack.indexOf(needle);
- return result;
+    return haystack.indexOf(needle);
 
 };
 
