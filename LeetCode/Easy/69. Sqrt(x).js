@@ -17,7 +17,15 @@
 
 var mySqrt = function(x) {
     // return Math.floor(Math.sqrt(x))
-    return Math.floor(x ** 0.5)
+    //=========================================
+    // return Math.floor(x ** 0.5)
+
+    //==========================================
+    let result=0;
+    for(let i=0;i*i <= x;i++){
+        result = i;
+    }
+    return result;
 };
 
 console.log(mySqrt(4)) // 2

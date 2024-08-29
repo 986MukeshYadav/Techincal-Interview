@@ -13,6 +13,31 @@
 // Output: -1
 // Explanation: "leeto" did not occur in "leetcode", so we return -1.
 
+//================================================================================
+
+// const findFirstOccurrence = (haystack, needle) => {
+//     if (needle === "") return 0; // edge case: empty needle
+  
+//     for (let i = 0; i <= haystack.length - needle.length; i++) {
+//       let j;
+//       for (j = 0; j < needle.length; j++) {
+//         if (haystack[i + j] !== needle[j]) {
+//           break; // mismatch found, break inner loop
+//         }
+//       }
+//       if (j === needle.length) {
+//         return i; // found the needle, return starting index
+//       }
+//     }
+  
+//     return -1; // needle not found
+//   };
+  
+//   console.log(findFirstOccurrence("leetcode", "leeto")); // Output: -1
+  
+
+//=========================================================================================
+
 var strStr = function(haystack, needle) {
     return haystack.indexOf(needle);
 

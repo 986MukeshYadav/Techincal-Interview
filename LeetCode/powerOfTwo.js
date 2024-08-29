@@ -8,6 +8,10 @@ function isPower0fTwo(num){
     // }
     // return false;
 
+   //===============================================================
+   return Math.log2(num) % 1 ===0;
+
+
     //========================================================
     // we can solve it using bitwise operator too but its your chance to it and let me know in the comment section
     return (num > 0) && (num & (num-1))==0

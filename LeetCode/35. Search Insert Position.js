@@ -15,6 +15,34 @@
 
 // Input: nums = [1,3,5,6], target = 7
 // Output: 4
+//==========================================================================================
+
+// const searchInsert = (nums, target) => {
+//     let left = 0;
+//     let right = nums.length - 1;
+  
+//     while (left <= right) {
+//       let mid = Math.floor((left + right) / 2);
+  
+//       if (nums[mid] === target) {
+//         return mid; // Target found
+//       } else if (nums[mid] < target) {
+//         left = mid + 1; // Move the left pointer to the right of mid
+//       } else {
+//         right = mid - 1; // Move the right pointer to the left of mid
+//       }
+//     }
+  
+//     return left; // Insertion point
+//   };
+  
+//   // Example test cases
+//   console.log(searchInsert([1, 3, 5, 6], 5)); // Output: 2
+//   console.log(searchInsert([1, 3, 5, 6], 2)); // Output: 1
+//   console.log(searchInsert([1, 3, 5, 6], 7)); // Output: 4
+  
+
+//==========================================================================================
 
 var searchInsert = function(nums, target) {
     nums.push(target);
