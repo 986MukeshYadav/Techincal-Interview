@@ -25,10 +25,18 @@
 // Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
 
 var merge = function(nums1, m, nums2, n) {
-    nums1.splice(m,m+n,...nums2);
-    return nums1.sort((a,b)=>a-b);
+    // nums1.splice(m,m+n,...nums2);
+    // return nums1.sort((a,b)=>a-b);
+    
+    //============================================================================
+    
+    let j=m;
+    for(let i=0;i<n;i++){
+        nums1[j]=nums2[i]
+        j++
+    }
+    return nums1.sort((a,b)=>a-b)
 };
-
 // Test cases
 
 console.log(merge([1,2,3,0,0,0], 3, [2,5,6], 3)); // Output: [1,2,2,3,5,6]
