@@ -21,3 +21,11 @@ const quickSort=(arr)=>{
 }
 
 console.log(quickSort([10, 7, 8, 9, 1, 5])); // Output: [1, 5, 7, 8, 9, 10]
+
+// Quick Sort
+
+// Time Complexity:
+// Best Case: O(n log n)
+// Average Case: O(n log n)
+// Worst Case: O(n²) (Occurs when the pivot is always the largest or smallest element)
+// Space Complexity: O(log n) 

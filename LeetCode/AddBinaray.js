@@ -8,8 +8,11 @@ function addBinary(a, b) {
         let sum = carry;
 
         // Add the current bit of a and 'b' if within bounds
-        if (i < a.length && b.length) {
-            sum += parseInt(a[a.length - 1 - i]) + parseInt(b[b.length - 1 - i]);
+        if (i < a.length) {
+            sum += parseInt(a[a.length - 1 - i]);
+        }
+        if(i<b.length){
+            sum += parseInt(b[b.length - 1 - i]);
         }
         
         // Append current bit to the result (sum % 2 gives 0 or 1)

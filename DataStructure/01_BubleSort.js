@@ -13,3 +13,11 @@ function BubbleSort(arr){
 }
 const arr = [64, 34, 25, 12, 22, 11, 90];
 console.log(BubbleSort(arr)); 
+
+// Bubble Sort
+
+// Time Complexity:
+// Best Case: O(n) (When the array is already sorted)
+// Average Case: O(n²)
+// Worst Case: O(n²)
+// Space Complexity: O(1)

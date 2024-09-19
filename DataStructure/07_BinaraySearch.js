@@ -25,3 +25,12 @@ const BinarySearch=(arr,target)=>{
 }
 console.log(BinarySearch([1, 5, 3, 7, 9], 5)); // Output: 2
 console.log(BinarySearch([1, 3, 5, 7, 9,8,6], 2)); // Output: -1
+
+
+// Binary Search
+
+// Time Complexity:
+// Best Case: O(1)
+// Average Case: O(log n)
+// Worst Case: O(log n)
+// Space Complexity: O(1) (Iterative) / O(log n) (Recursive)

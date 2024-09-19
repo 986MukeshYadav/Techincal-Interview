@@ -31,15 +31,14 @@ const romanToInt=(s)=>{
         let current = sym[s[i]];
         let next = sym[s[i+1]];
 
-        if(current < next){
-            result += next - current
-            i++
-        }
-        else{
-            result +=current
-        }
-    }
-    return result
+        if(next && current < next){
+            result -= current
+            
+          }else{
+            result += current
+          }
+            }
+            return result
 }
 
 console.log(romanToInt("III")); // 3

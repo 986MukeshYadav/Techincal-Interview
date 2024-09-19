@@ -22,3 +22,11 @@ const merge=(left, right)=>{
 }
 
 console.log(mergeSort([12, 11, 13, 5, 6, 7])) // Output: [5, 6, 7, 11, 12, 13]
+
+// Merge Sort
+
+// Time Complexity:
+// Best Case: O(n log n)
+// Average Case: O(n log n)
+// Worst Case: O(n log n)
+// Space Complexity: O(n) (Needs additional space for merging)

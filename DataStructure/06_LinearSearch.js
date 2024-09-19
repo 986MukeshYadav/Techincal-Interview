@@ -32,3 +32,11 @@ const golbalLinearSearch=(arr,target)=>{
 }
 console.log(golbalLinearSearch([1, 2, 3, 4, 5, 3], 3)) // Output: [2,5]
 
+
+// Linear Search
+
+// Time Complexity:
+// Best Case: O(1)
+// Average Case: O(n)
+// Worst Case: O(n)
+// Space Complexity: O(1)

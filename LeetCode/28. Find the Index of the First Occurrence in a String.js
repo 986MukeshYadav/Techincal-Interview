@@ -38,10 +38,28 @@
 
 //=========================================================================================
 
-var strStr = function(haystack, needle) {
-    return haystack.indexOf(needle);
-
-};
-
-console.log(strStr("sadbutsad", "sad")); // Output: 0
-console.log(strStr("leetcode", "leeto")); // Output: -1
+var Findindex = (haystack , needle ) => {
+  
+    let haLength = haystack.length
+    let neLength = needle.length
+    
+    if(neLength == 0) return 0
+    
+    for(let  i = 0; i<= haLength - neLength; i++){
+      
+      let j = 0
+      
+      while(j < neLength && haystack[i + j] == needle[j]){
+        j++
+      }
+      
+      if(j === neLength){
+        return i
+      }
+    }
+    return -1
+ }
+ 
+ 
+ console.log(Findindex("sadbutsad","sad"))
+ console.log(Findindex("leetcode","leeto"))
